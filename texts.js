@@ -16,4 +16,6 @@ var texts = [
 	'Justine Carta was a talented writer who was hard to pin down, unless you were a cute guy.',
 
 	'Colette Arand was a poet that should have been the first transsexual WWE star besides Chyna.',
+
+	'Morgan M Page was the Queen of the Vampires, who gave the men she was with enough confidence to leave her for a younger woman.',
 ]
