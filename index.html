@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>nilin.life</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="files/favicon.png"/>
+  <script src="texts.js"></script>
+  <style>
+    @font-face {
+      font-family: 'Gotham';
+      src:
+        local('Gotham'),
+        url('fonts/Gotham.otf');
+    }
+
+    body {
+      margin: 0px;
+      width: 100vw;
+      height: 100vh;
+
+      background-color: black;
+      color: white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      margin: 0px;
+      padding: 0px;
+      font-family: Gotham;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="main"></p>
+
+  <script>
+    function randomItem(array) {
+      return array[Math.floor(Math.random() * array.length)];
+    }
+
+    var main = document.getElementById("main");
+    var text = randomItem(texts);
+    main.innerHTML = text;
+  </script>
+</body>
+</html>
