@@ -13,7 +13,7 @@ var texts = [
 
 	'Robin Hill was the love interest in a now forgotten Indiana Jones holiday special.',
 
-	'Justine was a talented writer who was hard to pin down, unless you were a cute guy.',
+	'Justine Carta was a talented writer who was hard to pin down, unless you were a cute guy.',
 
 	'Colette Arand was a poet that should have been the first transsexual WWE star besides Chyna.',
 ]
